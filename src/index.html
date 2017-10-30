@@ -7,6 +7,95 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    body{
+      margin : 0;
+      padding : 0;
+      min-width: 1200px;
+    }
+    nav{
+      background-color: dodgerblue;
+      color : white;
+      padding : 1%;
+    }
+    #right-navbar{
+      float : right;
+      margin-top : 5px;
+    }
+    #right-navbar a{
+      color : white;
+      margin-right: 10px;
+      text-decoration: none;
+    }
+    nav h2{
+      margin : 0;
+      display: inline-block;
+    }
+    .clearfix:after{
+      content : "";
+      display: block;
+      clear: both;
+    }
+    *{
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+    #container{
+      padding : 1%;
+    }
+    #left-container {
+      width: 40%;
+      float : left;
+      box-shadow: 3px 3px 4px rgba(0,0,0,0.3);
+    }
+    #left-container h3{
+      margin : 0;
+      color : white;
+      padding : 10px;
+      background-color: dodgerblue;
+    }
+
+    #right-container{
+      width: 50%;
+      border : 1px solid dodgerblue;
+      float : right;
+      box-shadow: 3px 3px 4px rgba(0,0,0,0.3);
+    }
+    #right-container h3{
+      margin : 0;
+      color : white;
+      background-color: dodgerblue;
+      padding : 10px;
+    }
+    #left-container-form{
+      margin : 10px;
+    }
+    #card-container{
+      padding : 2%;
+    }
+    .card{
+      margin-bottom : 10px;
+      border : 1px solid dodgerblue;
+      box-shadow: 4px 4px 5px rgba(0,0,0,0.3);
+    }
+    .card img{
+      width : 90px; 
+      height :100px; 
+      float : left; 
+      background-color : dodgerblue; 
+      margin-right : 10px;
+    }
+    .card #p1{
+      margin : 0; 
+      padding-top : 10px;
+      overflow: hidden;
+    }
+    .card #p2{
+      margin : 0; 
+      overflow: hidden;
+      padding-top : 10px;
+    }
+  </style>
 </head>
 <body>
   <app-root></app-root>
